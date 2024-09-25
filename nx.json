@@ -55,7 +55,7 @@
       "inputs": ["default", "^default"]
     },
     "build": {
-      "dependsOn": ["^build", "codegen", "^codegen"]
+      "dependsOn": ["^build", "^codegen"]
     },
     "codegen": {
       "cache": true
